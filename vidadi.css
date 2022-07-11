@@ -201,6 +201,12 @@ ul li ul{
 .ana_div .navbar_div .navbar1 li .ic_nav1 li a{
     display: block;
     width: 100%;
+    margin-top: .5rem;
+    padding: .4rem 0;
+}
+.ana_div .navbar_div .navbar1 li .ic_nav1 li a:hover{
+    background-color: blue;
+    color: white;
 }
 .ana_div .ic_nav2{
     width: 90%;
