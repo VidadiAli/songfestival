@@ -8,24 +8,55 @@
     <link rel="stylesheet" href="bootstrap.js">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <script src="vidadi.js"></script>
     <title>Song Festival Azerbaijan</title>
 
 </head>
 
 <body>
     
+    
     <div class="ana_div">
         <div class="secon_nav_bar">
             <a href="#" style="text-align: left; margin-left: 1rem; margin-top: .5rem;"><img src="images/profile.jpg" style="border-radius: 100%; width: 3.5rem" /></a>
-            <a href="#" style="text-align: right; margin-right: 1rem; margin-top: .5rem;"><i class="fa-solid fa-bars" style="color: black;"></i></a>
+            <a style="text-align: right; margin-right: 1rem; margin-top: .5rem; cursor: pointer;" id="nav"><i class="fa-solid fa-bars" style="color: black;"></i></a>
+            <div class="tel_div" id="tel_div_id">
+                <ul class="tel_navbar">
+                    <li><a href="#" class="nav_img"><img src="images/profile.jpg" style="border-radius: 100%; width: 3.5rem" /></a></li>
+                    <li><a href="#">Ölkələr</a>
+                        <ul class="ic_nav2">
+                            <li><a href="#">A - D</a></li>
+                            <li><a href="#">E - H</a></li>
+                            <li><a href="#">X - Q</a></li>
+                            <li><a href="#">L - Ö</a></li>
+                            <li><a href="#">P - T</a></li>
+                            <li><a href="#">U - Z</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Xəbərlər</a></li>
+                    <li><a href="#">JESC</a></li>
+                    <li><a href="#">Təqvim</a></li>
+                    <li><a href="#">Haqqımızda</a></li>
+                </ul>
+                <i class="fa-solid fa-xmark cros1" id="cros"></i>
+            </div>
         </div>
-        <div class="navbar_div">
+        
+        <div class="navbar_div" id="navbar_div">
             <ul class="navbar1">
                 <li class="profile_li"><a href="#" class="profile"><img src="images/profile.jpg" style="border-radius: 100%; width: 3.5rem" /></a></li>
-                <li><a href="#">Ölkələr</a></li>
+                <li><a href="#">Ölkələr</a>
+                    <ul class="ic_nav1">
+                        <li><a href="#">A - D kateqoriyası</a></li>
+                        <li><a href="#">E - H kateqoriyası</a></li>
+                        <li><a href="#">X - Q kateqoriyası</a></li>
+                        <li><a href="#">L - Ö kateqoriyası</a></li>
+                        <li><a href="#">P - T kateqoriyası</a></li>
+                        <li><a href="#">U - Z kateqoriyası</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Xəbərlər</a></li>
                 <li><a href="#">JESC</a></li>
+                <li><a href="#">Təqvim</a></li>
                 <li><a href="#">Haqqımızda</a></li>
             </ul>
         </div>
@@ -169,13 +200,15 @@
     <h3 style="text-align: center;">Reaksiya Videoları</h3>
 
     <section class="reaksiya">
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/Z3V-V7QwRYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/3jeuF1yDZTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/--VZK9uZWpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/C8NvmpTGy10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/phWJU-FdQ-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/Kef8oDZpEjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/u1ROmY4NIsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/Z3V-V7QwRYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/3jeuF1yDZTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/--VZK9uZWpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/C8NvmpTGy10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/phWJU-FdQ-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/Kef8oDZpEjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380.8" height="214.2" src="https://www.youtube.com/embed/u1ROmY4NIsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </section>
 
 
@@ -193,6 +226,18 @@
 
 
     <script src="bootstrap.js"></script>
+
+    <script>
+        window.onload=function(){
+            gun.textContent=157 + " ";
+        }
+        nav.onclick=function(){
+            tel_div_id.style.display="block";
+        }
+        cros.onclick=function(){
+            tel_div_id.style.display="none";
+        }
+    </script>
 
 </body>
 
